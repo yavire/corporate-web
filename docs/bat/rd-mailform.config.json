@@ -1,0 +1,8 @@
+{
+  "useSmtp": false,
+  "host": "stmp.gmail.com",              
+  "port": 465,													 
+  "username": "kronodata@gmail.com",					 
+  "password": "ccmail01_olie1861",						 
+  "recipientEmail":  "kronodata@gmail.com"		 
+}

@@ -1,0 +1,45 @@
+{
+  "name": "robust",
+  "version": "1.0.0",
+  "description": "Robust – UI Kit",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack -p --config config/build.config.js --progress --colors",
+    "start": "webpack-dev-server --content-base docs/ --config config/dev.config.js --watch --progress --colors --open",
+    "watch": "webpack -p --config config/dev.config.js --watch --progress --colors"
+  },
+  "author": "Paul Laros <support@laros.io>",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "7.1.6",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "babel-preset-env": "1.6.1",
+    "babel-register": "6.26.0",
+    "copy-webpack-plugin": "4.2.0",
+    "cross-env": "5.1.1",
+    "css-loader": "0.28.7",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "1.1.5",
+    "node-sass": "4.6.1",
+    "postcss-loader": "2.0.8",
+    "precss": "2.0.0",
+    "resolve-url-loader": "2.2.0",
+    "sass-loader": "6.0.6",
+    "script-loader": "0.7.2",
+    "style-loader": "0.19.0",
+    "url-loader": "0.6.2",
+    "webpack": "3.8.1",
+    "webpack-dev-server": "2.11.1",
+    "webpack-merge": "4.1.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "1.0.9",
+    "bootstrap": "4.1.1",
+    "flickity": "2.0.11",
+    "jquery": "3.2.1",
+    "medium-zoom": "^0.4.0",
+    "popper.js": "1.12.9",
+    "timeago.js": "^3.0.2"
+  }
+}

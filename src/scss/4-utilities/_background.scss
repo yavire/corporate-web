@@ -1,0 +1,18 @@
+@each $color, $value in $colors {
+  // Background Variants
+  @include bg-variant(".bg-#{$color}", $value);
+  @include bg-variant(".bg-#{$color}-dark", darken($value, 7.5%));
+  @include bg-variant(".bg-#{$color}-light", lighten($value, 7.5%));
+
+  // Background Overlays
+  @include bg-overlay(".bg-overlay-#{$color}", $value);
+}
+
+@each $color, $value in $theme-colors {
+  // Background Variants
+  @include bg-variant(".bg-#{$color}-dark", darken($value, 7.5%));
+  @include bg-variant(".bg-#{$color}-light", lighten($value, 7.5%));
+
+  // Background Overlays
+  @include bg-overlay(".bg-overlay-#{$color}", $value);
+}
