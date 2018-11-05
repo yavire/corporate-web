@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Yavire - Automating a smarter future</title>
+  <title>Yavire - Deploy Tool</title>
 
   <link href="/docs/dist/css/robust.css" rel="stylesheet">
   <link href="/docs//dist/css/yavire.css" rel="stylesheet">
