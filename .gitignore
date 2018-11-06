@@ -1,0 +1,6 @@
+# Smarty Cache #
+###################
+*.cache.php
+
+#Others#
+package*.json
