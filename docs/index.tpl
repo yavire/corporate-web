@@ -76,7 +76,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-sm-10 col-md-8 col-lg-6 mx-auto text-center">
-            <h1 class="my-3 display-4 d-none d-lg-inline-block">AUTOMATING A SMARTER FUTURE</h1>
+            <h1 class="my-3 display-4 d-none d-lg-inline-block">AUTOMATING A SMARTER FUTURE IN AWS</h1>
             <span class="h1 my-3 d-inline-block d-lg-none">AUTOMATING A SMARTER FUTURE</span>
             <p class="lead mb-3">¡La automatización es el futuro, y el futuro es ahora!</p>
             <a class="btn btn-danger btn-lg mr-lg-2 my-1" href="#" role="button" data-toggle="modal" data-target="#modal1">Presentación</a>
