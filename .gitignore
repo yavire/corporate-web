@@ -1,6 +1,7 @@
 # Smarty Cache #
 ###################
-*.cache.php
+/cache
+/templates_c
 
 #Others#
 package*.json
